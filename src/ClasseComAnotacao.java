@@ -1,7 +1,13 @@
 
 
-@Tabela(value = "Classe")
+@Tabela(nome = "Classe")
 public class ClasseComAnotacao {
-    @Tabela(value = "Nome")
+    @Tabela(nome = "Nome")
     String nome;
+
+    @Tabela(nome = "Numero")
+    int numero;
+
+    public ClasseComAnotacao() {
+    }
 }
